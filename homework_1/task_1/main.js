@@ -7,8 +7,7 @@ function consoleRec(a){
         consoleRec(a - 1);
         i++;
     }    
-    console.log(arr[i]);  
-
+    console.log(arr[i]);
 }
 consoleRec(lengthArr);
 
